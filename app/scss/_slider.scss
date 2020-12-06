@@ -1,0 +1,71 @@
+@import "mixins";
+
+.header__slider {
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   min-height: 1064px;
+   margin-bottom: 142px;
+
+   &-item {
+      margin-top: 212px;
+   }
+
+   &-title {
+      font-weight: bold;
+      font-size: 64px;
+      line-height: 150%;
+      letter-spacing: 0.06em;
+      color: #0c528f;
+      max-width: 773px;
+      padding-bottom: 32px;
+   }
+
+   &-sub {
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 28px;
+      color: #0c528f;
+      padding-bottom: 40px;
+      span {
+         font-weight: bold;
+         background: linear-gradient(273.48deg, #a02c18 7.5%, #d93013 90.1%);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         color: #0b2349;
+      }
+   }
+}
+
+.red__btn {
+   @include red__btn;
+}
+
+
+.slick-prev {
+   background: url(../images/arrow-left.png);
+   margin-left: -145px;
+   z-index: 5;
+   &:hover {
+      background: url(../images/arrow-left-hover.png);
+   }
+}
+.slick-next {
+   background: url(../images/arrow-right.png);
+   margin-right: -145px;
+   right: 0;
+   &:hover {
+      background: url(../images/arrow-right-hover.png);
+   }
+}
+.slick-arrow {
+   height: 85px;
+   width: 59px;
+   position: absolute;
+   background-color: transparent;
+   border: none;
+   top: 74%;
+   font-size: 0;
+   cursor: pointer;
+   outline: none;
+}

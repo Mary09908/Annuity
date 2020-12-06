@@ -1,0 +1,40 @@
+.info {
+   margin-bottom: 139px;
+   &__title {
+      text-align: center;
+      padding-bottom: 50px;
+   }
+
+   &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+   }
+
+   &__item {
+      position: relative;
+      text-align: center;
+      color: #114B9D;
+      max-width: 384px;
+      &-text{
+         font-size: 17px;
+      }
+      &:nth-child(2){
+         margin:  0 16px;
+         
+      }
+   }
+
+   &__item-img {
+      padding-bottom: 23px;
+   }
+
+   &__item-title {
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 150%;
+      padding-bottom: 25px;
+   }
+
+}

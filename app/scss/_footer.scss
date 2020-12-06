@@ -1,0 +1,55 @@
+.footer {
+   background: #275073;
+   &__inner {
+      display: flex;
+      padding-top: 57px;
+      justify-content: center;
+   }
+   &__logo {
+      padding-right: 94px;
+   }
+   &__list {
+      padding-bottom: 24px;
+      display: flex;
+      li + li {
+         padding-left: 24px;
+      }
+      a {
+         font-weight: normal;
+         font-size: 16px;
+         color: #dee5f1;
+         &:hover{
+            color: #1974F6;
+         }
+      }
+   }
+   &__nav {
+      padding-right: 85px;
+   }
+   &__copy {
+      font-weight: normal;
+      font-size: 14px;
+      color: #dee5f1;
+      text-align: center;
+      padding-bottom: 63px;
+   }
+   &__btn{
+      .header__top-contacs--phone{
+         text-align: center;
+      }
+      a{
+         color: #FFF;
+         &:hover{
+            color: #1974F6;
+         }
+      }
+    button{
+       margin-bottom: 16px;
+    }
+   }
+}
+
+.bottom__list {
+   padding-left: 130px;
+   padding-bottom: 34px;
+}

@@ -29,6 +29,7 @@
       position: absolute;
       background-image: url(../images/garantee.png);
       width: 64px;
+      background-repeat: no-repeat;
       height: 81px;
       left: 33px;
       top: 3px;
@@ -62,7 +63,7 @@
       box-shadow: 0px 4px 13px rgba(11, 78, 165, 0.2);
    }
    &-item {
-      min-width: 917px;
+      max-width: 917px;
    }
    &-logo {
       margin-top: 27px;
@@ -85,7 +86,7 @@
 
 .get__item-bg {
    background-image: url(../images/get.png);
-   width: 917px;
+   max-width: 917px;
    height: 882px;
    background-repeat: no-repeat;
    background-position: top left;

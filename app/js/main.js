@@ -21,7 +21,6 @@ $(function () {
       fade: true,
       arrows: true,
       adaptiveHeight: true,
-      variableWidth: true,
       responsive: [
          {
             breakpoint: 1431,
